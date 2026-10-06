@@ -1,59 +1,237 @@
 <!DOCTYPE html>
+
 <html lang="id">
+
 <head>
+
     <meta charset="UTF-8">
+
     <title>Home - RED/OVA</title>
+
+    <!-- CSS UTAMA -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS KHUSUS HOME -->
+    <link rel="stylesheet" href="css/home.css">
+
 </head>
-<body>
 
-    <!-- NAVIGASI MENU -->
-    <table width="80%" align="center" border="0" cellpadding="10" cellspacing="0">
+
+<body class="home-page">
+
+
+    <!-- =========================================
+         NAVIGASI
+    ========================================== -->
+
+    <table
+        class="navbar"
+        width="80%"
+        align="center"
+        border="0"
+        cellpadding="10"
+        cellspacing="0"
+    >
+
         <tr align="center">
-            <td width="20%"><a href="index.html"><b>HOME</b></a></td>
-            <td width="20%"><a href="about.html">ABOUT</a></td>
-            <td width="40%"><h2><i>RED/OVA</i></h2></td>
-            <td width="20%"><a href="contact.html">CONTACT</a></td>
-            <td width="20%"><a href="project.html">PROJECT</a></td>
+
+
+            <!-- HOME -->
+
+            <td width="20%">
+
+                <a class="active" href="index.html">
+                    HOME
+                </a>
+
+            </td>
+
+
+            <!-- ABOUT -->
+
+            <td width="20%">
+
+                <a href="about.html">
+                    ABOUT
+                </a>
+
+            </td>
+
+
+            <!-- LOGO -->
+
+            <td width="40%">
+
+                <h2>
+                    <i>RED/OVA</i>
+                </h2>
+
+            </td>
+
+
+            <!-- CONTACT -->
+
+            <td width="20%">
+
+                <a href="contact.html">
+                    CONTACT
+                </a>
+
+            </td>
+
+
+            <!-- PROJECT -->
+
+            <td width="20%">
+
+                <a href="project.html">
+                    PROJECT
+                </a>
+
+            </td>
+
+
         </tr>
+
     </table>
 
-    <!-- GARIS PEMBATAS HEADER -->
-    <table width="80%" align="center" border="0" cellpadding="0" cellspacing="0">
+
+
+    <!-- =========================================
+         GARIS HEADER
+    ========================================== -->
+
+    <table
+        class="separator"
+        width="80%"
+        align="center"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+    >
+
         <tr>
-            <td><hr size="1" color="#e0e0e0"></td>
-        </tr>
-    </table>
-    
-    <br><br>
 
-    
-    <table width="80%" align="center" border="0" cellpadding="10" cellspacing="0">
-        <tr valign="top">
-            <!-- Kolom Teks Kiri -->
-            <td width="55%">
-                <h2>SELAMAT DATANG DI<br>WEBSITE RED/OVA</h2>
-                <br>
-                <p>
-                    Selamat datang di portofolio digital saya. 
-                    Di sini, Anda dapat mengeksplorasi berbagai karya visual, proyek 
-                    desain multimedia, serta pengalaman kreatif yang telah saya kerjakan. 
-                    Mari terhubung dan berkolaborasi untuk mewujudkan ide-ide menarik!.
-                </p>
-            </td>
-           
-            <td width="5%"></td>
+            <td>
 
-            <td width="40%" align="right">
-                <img src="Gambar-home.jpg" alt="Foto Profile" width="100%">
+                <hr>
+
             </td>
+
         </tr>
+
     </table>
 
-    <br><br><br>
 
-    <p align="center">
-        <small>&copy; 2026 Hak Cipta Dilindungi.</small>
+
+    <br>
+
+
+
+    <!-- =========================================
+         HOME CARD
+    ========================================== -->
+
+    <div class="home-container">
+
+
+        <table
+            class="home-content"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+        >
+
+            <tr valign="middle">
+
+
+                <!-- =================================
+                     TEKS KIRI
+                ================================== -->
+
+                <td
+                    width="50%"
+                    class="home-text"
+                >
+
+                    <h1>
+
+                        SELAMAT DATANG DI
+                        <br>
+                        WEBSITE RED/OVA
+
+                    </h1>
+
+
+                    <p class="home-description">
+
+                        Selamat datang di portofolio digital saya.
+                        Di sini, Anda dapat mengeksplorasi berbagai
+                        karya visual, proyek desain multimedia,
+                        serta pengalaman kreatif yang telah saya kerjakan.
+
+                        Mari terhubung dan berkolaborasi untuk
+                        mewujudkan ide-ide menarik!
+
+                    </p>
+
+                </td>
+
+
+
+                <!-- =================================
+                     JARAK
+                ================================== -->
+
+                <td width="5%"></td>
+
+
+
+                <!-- =================================
+                     GAMBAR KANAN
+                ================================== -->
+
+                <td
+                    width="45%"
+                    align="right"
+                >
+
+                    <div class="home-image-wrapper">
+
+                        <img
+                            class="home-image"
+                            src="Gambar-home.jpg"
+                            alt="Foto RED/OVA"
+                        >
+
+                    </div>
+
+                </td>
+
+
+            </tr>
+
+        </table>
+
+
+    </div>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <p class="home-footer">
+
+        <small>
+            &copy; 2026 Hak Cipta Dilindungi.
+        </small>
+
     </p>
 
+
 </body>
+
 </html>

@@ -1,0 +1,126 @@
+/* =========================================
+   GLOBAL / UMUM SEMUA HALAMAN
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #3494d3;
+
+    color: #172b4d;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    margin-top: 25px;
+
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.navbar td {
+    padding: 0;
+}
+
+
+/* Kotak menu */
+
+.navbar td a {
+    display: block;
+
+    padding: 11px 18px;
+
+    background-color: #ffffff;
+
+    color: #172b4d;
+
+    border: 1px solid #d5dce3;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Hover menu */
+
+.navbar td a:hover {
+    background-color: #c62828;
+
+    color: #ffffff;
+
+    border-color: #c62828;
+
+    transform: translateY(-2px);
+}
+
+
+/* Menu aktif */
+
+.navbar td a.active {
+    background-color: #c62828;
+
+    color: #ffffff;
+
+    border-color: #c62828;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.navbar h2 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 28px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================
+   GARIS PEMISAH
+========================================= */
+
+.separator {
+    margin-top: 12px;
+}
+
+.separator hr {
+    border: none;
+
+    border-top: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+    color: #ffffff;
+
+    font-size: 13px;
+
+    margin-bottom: 20px;
+}

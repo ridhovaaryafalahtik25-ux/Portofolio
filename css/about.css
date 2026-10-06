@@ -1,0 +1,149 @@
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+.about-content {
+    background-color: #ffffff;
+
+    border-radius: 22px;
+
+    padding: 30px;
+
+    box-shadow: 0 10px 30px rgba(30, 60, 90, 0.15);
+}
+
+
+/* =========================================
+   FOTO PROFILE
+========================================= */
+
+.photo-column {
+    padding: 10px 20px 10px 10px;
+}
+
+.foto-profile {
+    display: block;
+
+    width: 100%;
+
+    border-radius: 22px;
+
+    border: 7px solid #eaf2f8;
+
+    box-shadow: 0 8px 20px rgba(30, 60, 90, 0.18);
+
+    transition: all 0.3s ease;
+}
+
+.foto-profile:hover {
+    transform: scale(1.02);
+}
+
+
+/* =========================================
+   TEKS ABOUT
+========================================= */
+
+.about-text {
+    padding: 10px 25px;
+}
+
+
+/* Judul */
+
+.about-text h1 {
+    margin-top: 5px;
+
+    margin-bottom: 20px;
+
+    color: #172b4d;
+
+    font-size: 34px;
+
+    line-height: 1.2;
+}
+
+
+/* Garis merah di bawah judul */
+
+.about-text h1::after {
+    content: "";
+
+    display: block;
+
+    width: 60px;
+
+    height: 5px;
+
+    margin-top: 12px;
+
+    background-color: #c62828;
+
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   BLOK DESKRIPSI
+========================================= */
+
+.description-box {
+    background-color: #f3f7fb;
+
+    border-left: 6px solid #c62828;
+
+    border-radius: 12px;
+
+    padding: 20px 25px;
+
+    margin-top: 15px;
+}
+
+.description-box p {
+    margin: 0 0 18px 0;
+
+    color: #34495e;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+.description-box p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   BUTTON CV
+========================================= */
+
+.cv-button {
+    display: inline-block;
+
+    padding: 13px 24px;
+
+    background-color: #c62828;
+
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    box-shadow: 0 5px 12px rgba(198, 40, 40, 0.2);
+
+    transition: all 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #172b4d;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 7px 15px rgba(23, 43, 77, 0.25);
+}

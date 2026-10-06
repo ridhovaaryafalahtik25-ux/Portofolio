@@ -1,0 +1,123 @@
+/* =========================================
+   HOME PAGE
+========================================= */
+
+.home-container {
+    width: 80%;
+    margin: 35px auto 0;
+
+    background-color: #ffffff;
+
+    border-radius: 22px;
+
+    padding: 45px 50px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 10px 30px rgba(30, 60, 90, 0.15);
+}
+
+
+/* =========================================
+   HOME CONTENT
+========================================= */
+
+.home-content {
+    width: 100%;
+}
+
+
+/* =========================================
+   TEXT AREA
+========================================= */
+
+.home-text {
+    padding-right: 30px;
+}
+
+
+.home-text h1 {
+    margin: 0;
+
+    color: #172b4d;
+
+    font-size: 40px;
+
+    line-height: 1.15;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* Garis merah di bawah judul */
+
+.home-text h1::after {
+    content: "";
+
+    display: block;
+
+    width: 65px;
+    height: 5px;
+
+    margin-top: 16px;
+
+    background-color: #c62828;
+
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.home-description {
+    max-width: 620px;
+
+    margin-top: 28px;
+
+    color: #52677d;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.home-image-wrapper {
+    background-color: #f3f7fb;
+
+    padding: 12px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 22px rgba(30, 60, 90, 0.12);
+}
+
+
+.home-image {
+    display: block;
+
+    width: 100%;
+
+    border-radius: 13px;
+
+    object-fit: cover;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.home-footer {
+    margin-top: 35px;
+
+    color: #ffffff;
+
+    text-align: center;
+}
